@@ -1,0 +1,11 @@
+input[type="checkbox"]:checked+label{
+    color: red;
+}
+
+input[type="radio"]+label{
+    color: blue;
+}
+input[type="radio"]:checked+label{
+    color: red;
+
+}

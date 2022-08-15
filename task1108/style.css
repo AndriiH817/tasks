@@ -1,0 +1,20 @@
+input{
+    width:200px;
+    outline: none;
+}
+
+.input1:focus{
+    color: rgb(0, 128, 0);
+	font-weight: bold;
+}
+.input2:focus{
+    box-shadow: 0px 0px 3px rgb(255, 128, 0);
+	border: 1px solid rgb(255, 131, 6);
+	color: rgb(255, 131, 6);
+
+}
+.input3:focus{
+    width: 400px;
+	box-shadow: 0px 0px 3px rgb(150, 150, 150);
+}
+
