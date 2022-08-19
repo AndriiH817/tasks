@@ -1,0 +1,63 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+header{
+    margin-left: 340px;
+}
+main{
+    margin-left: 140px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 100px 65px;
+}
+.navigation li{
+    display: inline-block;
+    margin-right: 100px;
+
+}
+.navigation li:last-child{
+    margin: 0;
+}
+.navigation a{
+    color: #7D7D7D;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navigation a:hover{
+    color: #03A9F4;
+}
+.photoblock{
+    width: 420px;
+}
+.photoblock h3{
+    color: #B4AD9E;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    margin-top: 62px;
+    margin-bottom: 32px;
+}
+.photoblock h2{
+    color: #626262;
+    font-weight: 400;
+}
+.photoblock p{
+    color: #626262;
+}
+a[href=""]{
+    color: #626262;
+    text-decoration: none;
+}
+.loadmore{
+    margin-left: 460px;
+}
+.textborder{
+    border: 1px solid #626262;
+    width: fit-content;  
+}
+.text{
+    margin: 20px 48px 21px 49px;
+}
+a[href=""]:hover{
+    color: #03A9F4;
+}
